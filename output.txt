@@ -1,0 +1,116 @@
+<time 0>  ----system idle ----
+<time 1>  [new arrival]process 8
+<time 1> process 8 is running
+<time 2>  [new arrival]process 5
+-----------------context switching
+
+<time 2> process 5 is running
+<time 3>  [new arrival]process 2
+-----------------context switching
+
+<time 3> process 2 is running
+<time 4>  [new arrival]process 4
+<time 4> process 2 is running
+<time 5>  [new arrival]process 6
+<time 5> process 2 is running
+<time 6> process 2 is running
+<time 7>  process 2 is finished
+---------------(context switching)
+
+<time 7>  [new arrival]process 3
+-----------------context switching
+
+<time 7> process 3 is running
+<time 8> process 3 is running
+<time 9>  process 3 is finished
+---------------(context switching)
+
+<time 9>  [new arrival]process 1
+<time 9> process 1 is running
+<time 10> process 1 is running
+<time 11> process 1 is running
+<time 12> process 1 is running
+<time 13> process 1 is running
+<time 14>  process 1 is finished
+---------------(context switching)
+
+<time 14>  ----system idle ----
+<time 15>  ----system idle ----
+<time 16>  [new arrival]process 9
+<time 16> process 9 is running
+<time 17> process 9 is running
+<time 18> process 9 is running
+<time 19> process 9 is running
+<time 20>  process 9 is finished
+---------------(context switching)
+
+<time 20>  ----system idle ----
+<time 21>  ----system idle ----
+<time 22>  ----system idle ----
+<time 23>  ----system idle ----
+<time 24>  ----system idle ----
+<time 25>  ----system idle ----
+<time 26>  [new arrival]process 7
+<time 26> process 7 is running
+<time 27> process 7 is running
+<time 28>  process 7 is finished
+---------------(context switching)
+
+<time 28>  ----system idle ----
+<time 29>  ----system idle ----
+<time 30>  [new arrival]process 10
+<time 30> process 10 is running
+<time 31> process 10 is running
+<time 32> process 10 is running
+<time 33> process 10 is running
+<time 34> process 10 is running
+<time 35> process 10 is running
+<time 36>  process 10 is finished
+---------------(context switching)
+
+<time 36> process 5 is running
+<time 37> process 5 is running
+<time 38> process 5 is running
+<time 39> process 5 is running
+<time 40> process 5 is running
+<time 41> process 5 is running
+<time 42> process 5 is running
+<time 43>  process 5 is finished
+---------------(context switching)
+
+<time 43> process 4 is running
+<time 44> process 4 is running
+<time 45> process 4 is running
+<time 46>  process 4 is finished
+---------------(context switching)
+
+<time 46> process 4 is running
+<time 47> process 4 is running
+<time 48> process 4 is running
+<time 49> process 4 is running
+<time 50> process 4 is running
+<time 51> process 4 is running
+<time 52>  process 4 is finished
+---------------(context switching)
+
+<time 52> process 6 is running
+<time 53> process 6 is running
+<time 54> process 6 is running
+<time 55>  process 6 is finished
+---------------(context switching)
+
+<time 55> process 8 is running
+<time 56> process 8 is running
+<time 57> process 8 is running
+<time 58> process 8 is running
+<time 59> process 8 is running
+<time 60>  process 8 is finished
+
+
+<time 60> all process is finished.
+-----------------------------------
+-----------------------------------
+Avarage Cpu usage : 81 percent
+Avarage waiting time : 25
+Avarage response time : 25
+Avarage turnaround time : 20
